@@ -613,14 +613,23 @@ video {
 .left-\[50\%\] {
   left: 50%;
 }
+.right-2 {
+  right: 0.5rem;
+}
 .right-4 {
   right: 1rem;
+}
+.top-2 {
+  top: 0.5rem;
 }
 .top-4 {
   top: 1rem;
 }
 .top-\[50\%\] {
   top: 50%;
+}
+.z-10 {
+  z-index: 10;
 }
 .z-50 {
   z-index: 50;
@@ -635,6 +644,9 @@ video {
 }
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
 }
 .ml-auto {
   margin-left: auto;
@@ -677,6 +689,9 @@ video {
 }
 .h-\[1px\] {
   height: 1px;
+}
+.h-\[200px\] {
+  height: 200px;
 }
 .h-full {
   height: 100%;
@@ -808,6 +823,9 @@ video {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -819,9 +837,6 @@ video {
 }
 .rounded-sm {
   border-radius: calc(var(--radius) - 4px);
-}
-.rounded {
-  border-radius: 0.25rem;
 }
 .border {
   border-width: 1px;
@@ -850,6 +865,9 @@ video {
 .bg-destructive {
   background-color: hsl(var(--destructive));
 }
+.bg-muted {
+  background-color: hsl(var(--muted));
+}
 .bg-popover {
   background-color: hsl(var(--popover));
 }
@@ -862,8 +880,9 @@ video {
 .bg-transparent {
   background-color: transparent;
 }
-.bg-muted {
-  background-color: hsl(var(--muted));
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-0 {
   padding: 0px;
@@ -900,6 +919,10 @@ video {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.px-\[0\.3rem\] {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -927,10 +950,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.px-\[0\.3rem\] {
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
 }
 .py-\[0\.2rem\] {
   padding-top: 0.2rem;

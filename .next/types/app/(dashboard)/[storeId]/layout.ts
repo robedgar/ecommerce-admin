@@ -1,4 +1,4 @@
-// File: /Users/robertedgar/Dev/Projects/ecommerce/ecommerce-admin/app/(dashboard)/[storeId]/layout.tsx
+// File: /Users/robertedgar/Dev/Projects/ecommerce-admin/app/(dashboard)/[storeId]/layout.tsx
 import * as entry from '../../../../../app/(dashboard)/[storeId]/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
