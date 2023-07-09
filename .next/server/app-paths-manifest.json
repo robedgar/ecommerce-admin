@@ -1,5 +1,4 @@
 {
-  "/api/[storeId]/billboards/route": "app/api/[storeId]/billboards/route.js",
-  "/(dashboard)/[storeId]/(routes)/billboards/page": "app/(dashboard)/[storeId]/(routes)/billboards/page.js",
-  "/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page": "app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(dashboard)/[storeId]/(routes)/billboards/page": "app/(dashboard)/[storeId]/(routes)/billboards/page.js"
 }
