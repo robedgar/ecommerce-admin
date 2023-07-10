@@ -8,20 +8,20 @@ import { toast } from "react-hot-toast";
 interface ApiAlertProps {
     title: string;
     description: string;
-    varient: "public" | "admin";
+    variant: "public" | "admin";
 };
 
-const textMap: Record<ApiAlertProps["varient"], string> = {
+const textMap: Record<ApiAlertProps["variant"], string> = {
     public: "Public",
     admin: "Admin"
 };
 
-const varientMap: Record<ApiAlertProps["varient"], BadgeProps["variant"]> = {
+const varientMap: Record<ApiAlertProps["variant"], BadgeProps["variant"]> = {
     public: "secondary",
     admin: "destructive"
 };
 
-export const ApiAlert: React.FC<ApiAlertProps> = ({ title, description, varient = "public" }) => {
+export const ApiAlert: React.FC<ApiAlertProps> = ({ title, description, variant: varient = "public" }) => {
     const onCopy = (description: string) => {
         navigator.clipboard.writeText(description);
         toast.success("API Route copied to clipboard.");
